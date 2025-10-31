@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>string and mah function</title>
+</head>
+<body>
+<center><H1>STRING AND MATH FUNTIONS</H1></center>
+<h2>string function</h2>
+<script>
+var stri=prompt("enter a string");
+var s2=prompt("enter a second string");
+document.write("string is:" + stri + " <br>");
+document.write("string length is :" + stri.length+ " <br>");
+document.write("string in uppercase:" + stri.toUpperCase()+"<br>");
+document.write("string in lowercase :" + stri.toLowerCase()+"<br>");
+document.write("charat 1:" + stri.charAt(1) + " <br>");
+document.write("concat:" + stri.concat(s2) + " <br>");
+document.write("indexOf:" + stri.indexOf("n") + " <br>");
+document.write("last indexOf:" + stri.lastIndexOf("d") + " <br>");
+document.write("slice:" + stri.slice(2,5) + " <br>");
+document.write("Trim:" + stri.trim() + " <br>");
+
+</script>
+<hr>
+<h2>Math function</h2>
+<script>
+var num1=parseFloat(prompt("enter a number"))
+var num2=parseFloat(prompt("enter a second number"))
+document.write("number : "+num1+"<br>"+
+		"round :"+Math.round(num1)+"<br>"+
+		"ceil :"+Math.ceil(num1)+"<br>"+
+		"floor :"+Math.floor(num1)+"<br>"+
+		"sqrt :"+Math.sqrt(num1)+"<br>"+
+		"power of :"+Math.pow(num1,num2)+"<br>"+
+		"Abs :"+Math.abs(num1)+"<br>"+
+		"Random :"+Math.random()+"<br>");
+
+</script>
+</body>
+</html>
