@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> mouse over</title>
+</head>
+<body>
+<h1 id="text">HELLO</h1>
+<img src="/home/ksb/nihad25/nihad html/b.jpeg"onmouseover="onmouse()"onmouseout="outmouse()"id="image">
+<script>
+function onmouse(){
+document.getElementById('text').innerText='welcome to my page';
+document.getElementById('image').src='/home/ksb/nihad25/nihad html/c.jpg';
+}
+function outmouse(){
+document.getElementById('text').innerText='HELLO';
+document.getElementById('image').src='/home/ksb/nihad25/nihad html/b.jpeg';
+}
+</script>
+</body>
+</html>
